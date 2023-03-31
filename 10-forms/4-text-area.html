@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>textarea</title>
+</head>
+
+<body>
+    <h3>Customer Feedback Form</h3>
+    <form action="#" method="get">
+
+        <label for="customer">Please enter your name..</label>
+        <input type="text" name="customer" required>
+
+        <p>Please Rate our service</p>
+        <input type="radio" name="rating" value="Good" hid>
+        <label for="rating">Good</label>
+        <input type="radio" name="rating" value="Okay">
+        <label for="rating">Okay</label>
+        <input type="radio" name="rating" value="Poor">
+        <label for="rating">Poor</label>
+        <br>
+        <br>
+        
+        <label for="feedbackStatement">Provide feedback here please..</label>
+        <br>
+        <br>
+
+        <textarea name="feedbackStatement" cols="50" rows="7" required></textarea>
+        <br>
+        <br>
+
+        <input type="submit" name="submit" value="Submit Feedback">
+    </form>
+</body>
+
+</html>

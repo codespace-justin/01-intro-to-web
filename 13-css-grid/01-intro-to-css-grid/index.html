@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>       
+        .grid-wrapper {
+            /* apply css grid to any block-level element that has this class */
+            display: grid;
+
+            /* set width of columns and by default the number of columns in the grid*/
+            grid-template-columns: 100px 100px 100px;
+        }
+
+        .grid-item {
+            background-color: black;
+            color: white;
+            border: 1px solid black;
+            padding: 1rem;
+        }
+
+        .grid-item:nth-child(even) {
+            background-color: white;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <section class="grid-wrapper">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+        <div class="grid-item">9</div>
+    </section>
+</body>
+</html>
