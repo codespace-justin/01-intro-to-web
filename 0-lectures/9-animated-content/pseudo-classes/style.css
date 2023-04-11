@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+
+/* === nav === */
+
+#nav {
+    text-align: center;
+    background-color: rgb(249, 249, 249);
+    padding: 1.5rem;
+}
+
+.nav__btn {
+    margin: 0 50px;
+    padding: 0.75rem 1.25rem;
+    width: 125px;
+
+    background-color: rgb(102, 57, 224);
+    color: rgb(255, 255, 255);
+    border: 1px rgb(102, 57, 224) solid;
+    border-radius: 7px;
+
+    transition-property: background-color, color;
+    transition-duration: 0.4s;
+    transition-delay: 0s;
+    transition-timing-function: ease-in;
+    
+}
+
+.nav__btn:hover {  
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: rgb(102, 57, 224);
+}
+
+/* === main === */
+
+.module {
+    margin: 3rem 0px;
+    padding: 2rem;
+}
